@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Application/Application.csproj" />
+  <Project Path="corbret/corbret.csproj" />
+  <Project Path="domain/domain.csproj" />
+  <Project Path="infra/infra.csproj" />
+</Solution>
