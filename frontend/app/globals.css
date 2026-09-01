@@ -1,0 +1,64 @@
+:root {
+  --background: #06151c;
+  --surface: #07131b;
+  --card: #030b11;
+  --input: #02080d;
+  --border: #1d2b35;
+  --text: #ffffff;
+  --muted: #929ca5;
+  --primary: #8abeff;
+  --primary-contrast: #06151c;
+  --secondary-btn: #3e4b56;
+  --secondary-contrast: #ffffff;
+  --panel: #0f2447;
+  --bubble: #172433;
+  --chip: #192633;
+  --star: #f5b50a;
+}
+
+.light {
+  --background: #f8f9fb;
+  --surface: #ffffff;
+  --card: #ffffff;
+  --input: #f9f9fb;
+  --border: #e1e2e9;
+  --text: #171c21;
+  --muted: #6e7175;
+  --primary: #1c63f0;
+  --primary-contrast: #ffffff;
+  --secondary-btn: #ebedf2;
+  --secondary-contrast: #171c21;
+  --panel: #eaf1fe;
+  --bubble: #eef2f6;
+  --chip: #eef1f5;
+  --star: #f5a623;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+}

@@ -1,0 +1,87 @@
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.image {
+  height: 170px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.automation {
+  background: linear-gradient(180deg, #04408f 0%, #d3e1fc 50%, #02367b 80%);
+}
+
+.electrical {
+  background: linear-gradient(180deg, #c8751b 0%, #fdf1e1 50%, #b56716 80%);
+}
+
+.design {
+  background: linear-gradient(180deg, #066f47 0%, #f1faf7 50%, #002919 80%);
+}
+
+.badge {
+  align-self: flex-start;
+  background: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content {
+  padding: 14px 16px 16px;
+}
+
+.name {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.rating {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.stars {
+  color: var(--star);
+  letter-spacing: 1px;
+}
+
+.description {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.button {
+  width: 100%;
+  padding: 9px;
+  background: var(--input);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.button:hover {
+  background: var(--chip);
+}
